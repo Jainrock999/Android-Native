@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LiveTestApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_internet">NO Internet</string>
+    <string name="email_id">Email Id</string>
+    <string name="log_out">Log out</string>
+    <string name="full_name">full name</string>
+</resources>
