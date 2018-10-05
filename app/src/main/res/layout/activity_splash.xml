@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_bg"
+    android:orientation="vertical"
+    tools:context=".activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="Welcome"
+            android:textColor="@color/app_bg"
+            android:textSize="@dimen/_14sdp"
+
+            android:textStyle="normal" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_xbox"
+            app:civ_border_color="#45CCA4"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+</LinearLayout>
